@@ -20,5 +20,5 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^$','home.views.example1',name='home'),
+    url(r'^$','Bootstraptemp.views.example1', name='home'),
 ]

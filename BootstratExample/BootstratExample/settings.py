@@ -104,5 +104,5 @@ STATIC_URL = '/static/'
 STATIC_ROOT=os.path.join(os.path.dirname(BASE_DIR),"assets","static_prod")
 
 STATICFILES_DIRS=(
-    os.path.join(os.path.dirname(BASE_DIR),"assets","static")
+    os.path.join(os.path.dirname(BASE_DIR),"assets","static"),
 )
